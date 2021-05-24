@@ -1,75 +1,43 @@
-<!doctype html>
-<html>
+{% extends "base.html" %}
+{% block title %} Historic Black Wallstreet
+{% endblock %}
+{% block head %}
+  {{ super() }}
 
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='index.css') }}">
 
-    <script src="{{ url_for('static', filename='scripts/scripts.js') }}"></script>
-    <script src="../static/scripts/scripts.js"></script>
-    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
-    <link rel="stylesheet" href="../static/base_style.css">
-    <link rel="stylesheet" href="../static/index.css">
-    <link rel="stylesheet" href="../static/thank_you.css">
+{% endblock %}
 
-    <title>
-        UCG - Black Wallstreet Student Projects
-    </title>
+{% block content %}
 
-  </head>
+<section id="hero">
+    hero
+</section>
 
-  <body>
+<section id="carousel">
+    carousel
+</section>
 
-    <header>
-        <nav>
+<section id="student_projects">
+    student student_projects
+    <div class="light-theme">
+        light
+    </div>
 
-        </nav>
-    </header>
+    <div class="dark-theme">
+        dark
+    </div>
 
-    <section id="hero">
+    <div class="light-theme">
+        light
+    </div>
 
-    </section>
+    <div class="dark-theme">
+        dark
+    </div>
 
-    <section id="carousel">
-
-    </section>
-
-    <section id="student_projects">
-
-        <div class="light-theme">
-
-        </div>
-
-        <div class="dark-theme">
-
-        </div>
-
-        <div class="light-theme">
-
-        </div>
-
-        <div class="dark-theme">
-
-        </div>
-
-    </section>
+</section>
 
 
-    <footer>
-
-        <div class="footer-column">
-
-        </div>
-
-        <div class="footer-column">
-            
-        </div>
-
-        <div class="footer-column">
-            
-        </div>
-
-    </footer>
-
-
-  </body>
+    
+{% endblock %}

@@ -22,6 +22,18 @@ CORS(app, resources={r"*": {"origins": "*"}})
 def index():
     return render_template('index.html')
 
+@app.route('/thank_you', methods=['GET'], strict_slashes=False)
+def thank_you():
+    return render_template('index.html')
+
+@app.route('/donate', methods=['GET'], strict_slashes=False)
+def donate():
+    return render_template('index.html')
+
+@app.route('/red_wing_cafe', methods=['GET'], strict_slashes=False)
+def red_wing_cafe():
+    return render_template('projects/red_wing_cafe.html')
+
 
 """
 ERROR HANDLERS
