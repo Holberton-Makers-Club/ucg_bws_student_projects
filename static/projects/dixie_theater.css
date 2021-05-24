@@ -1,0 +1,71 @@
+body {
+  font-family: fantasy, cursive;
+}
+div {
+  border: 16px solid skyblue;
+  padding: 30px;
+  margin: 10px;
+  display: inline-block;
+}
+
+#box-owner {
+  width: 50%;
+  display: inline-block;
+}
+#dixie {
+  width: 50%;
+}
+#logo img {
+  width: 200px;
+}
+#logo {
+  vertical-align: top;
+  display: inline-block;
+  border: 0px;
+}
+
+#tagline {
+  border: 0px;
+  display: inline-block;
+  width: 60%;
+  vertical-align: top;
+}
+h2 {
+  font-size: 32px;
+}
+p {
+  font-size: 22px;
+}
+
+#about {
+  width: 70%;
+  display: inline-block;
+}
+
+h1 {
+  font-size: 38px;
+  display: inline;
+  vertical-align: top;
+}
+
+.img {
+  width: 100%;
+  margin: 0px;
+  border: 0px;
+  padding: 0px;
+}
+
+.img img {
+  width: 100%;
+}
+#box {
+  width: 80%;
+}
+.textbox {
+  border: 0px;
+  padding: 0px;
+  margin: 0px;
+  width: 30%;
+  vertical-align: top;
+  margin-right: 60px;
+}

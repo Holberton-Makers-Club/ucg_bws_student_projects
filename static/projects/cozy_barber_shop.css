@@ -1,0 +1,207 @@
+#topall {
+  background-image: url("https://i.ibb.co/F3MTsCW/Choice-2.jpg");
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 20px 0px 0px 20px;
+}
+.topwords h3 {
+  display: inline;
+  font-size: 220%;
+  margin-left: 4%;
+}
+.word {
+  display: inline;
+  font-size: 220%;
+  margin-left: 4%;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.word:hover {
+  color: white;
+}
+.word5:hover {
+  color: #70b2ff;
+}
+.word5 {
+  color: #a58eff;
+  background-color: white;
+  border: 5px solid white;
+}
+.first {
+  text-decoration: none;
+}
+.midphoto {
+  margin-top: 4%;
+}
+.pic1 {
+  min-width: 25%;
+  margin-left: 4.3%;
+}
+.pic2 {
+  width: 28.2%;
+  margin-left: 4.3%;
+}
+.pic3 {
+  width: 28.3%;
+  margin-left: 4.3%;
+}
+.book {
+  min-width: 35%;
+  height: 450px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 20px 0px 0px 20px;
+  margin-top: 4%;
+  display: inline-block;
+  vertical-align: top;
+}
+#booknow {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.group1 {
+  display: inline-block;
+  background-color: #ddc2a3;
+  height: 450px;
+  width: 52%;
+  display: inline-block;
+  margin-top: 5.4%;
+}
+
+.book1 {
+  font-family: Advent Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 70px;
+  line-height: 108px;
+
+  margin-left: 158px;
+  display: inline-block;
+  color: black;
+  background-color: white;
+  border: 5px solid white;
+  border: 5px solid black;
+}
+.book1:hover {
+  color: gold;
+}
+.book2 {
+  font-family: Advent Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 70px;
+  line-height: 108px;
+  text-align: center;
+  color: white;
+  margin-top: -10%;
+}
+.text1 {
+  background-color: white;
+  height: 350px;
+  width: 100%;
+  display: inline-block;
+}
+#part1 {
+  font-family: Comfortaa;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 70px;
+  margin-left: 50px;
+}
+.part2 {
+  font-family: Adamina;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 50px;
+  margin-top: -50px;
+  margin-left: 10px;
+}
+.text2 {
+  background-color: black;
+  height: 400px;
+  width: 100%;
+  display: inline-block;
+}
+#part3 {
+  color: white;
+  font-family: Comfortaa;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 70px;
+  margin-left: 50px;
+  margin-top: ;
+}
+.part4 {
+  color: white;
+  font-family: Adamina;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 50px;
+  margin-top: -50px;
+  margin-left: 20px;
+}
+.text3 {
+  background-color: white;
+  height: 350px;
+  width: 100%;
+  display: inline-block;
+}
+#part5 {
+  font-family: Comfortaa;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 70px;
+  margin-left: 50px;
+  margin-top: ;
+}
+.part6 {
+  font-family: Adamina;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 50px;
+  margin-top: -50px;
+  margin-left: 20px;
+}
+.text4 {
+  background-color: black;
+  height: 260px;
+  width: 100%;
+  display: inline-block;
+}
+#part7 {
+  color: white;
+  font-family: Comfortaa;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 70px;
+  margin-left: 50px;
+}
+.part8 {
+  color: white;
+  font-family: Adamina;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 50px;
+  margin-top: -50px;
+  margin-left: 20px;
+}
+.connect {
+  font-family: Advent Pro;
+  font-size: 70px;
+  display: inline-block;
+  margin-right: 380px;
+}
+.logo {
+  position: absolute;
+  top: 550px;
+  left: 70px;
+}

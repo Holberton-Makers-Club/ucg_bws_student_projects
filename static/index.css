@@ -1,0 +1,21 @@
+.logos img, .w-10 {
+    height: 200px;
+    min-height: 8rem;
+    max-height: 9rem;
+    margin-bottom: 33px;
+    background-color: white;
+    border-radius: 3px;
+}
+.logo {
+    height: 20rem;
+    border-radius: 3px;
+    background-color: white;
+}
+
+#hero {
+    background: linear-gradient(350.16deg, rgba(255, 255, 255, 0.5) 7.39%, rgba(255, 255, 255, 0) 92.61%), #4497B6;
+    text-shadow: 3px 3px 9px rgba(20, 20, 20, 0.5);
+}
+#learn-more {
+    scroll-behavior: smooth;
+}

@@ -1,0 +1,200 @@
+body {
+  background-color: #fafad2;
+  height: 4000px;
+}
+.title {
+  font-family: Berkshire Swash;
+  font-size: 90px;
+  text-align: center;
+}
+.header {
+  height: 70px;
+  width: 100%;
+  background-color: #ffa07a;
+  padding-top: 25px;
+  display: flex;
+  justify-content: space-around;
+}
+.header a {
+  display: inline;
+  font-size: 240%;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-family: Comfortaa;
+}
+.header a:hover {
+  color: white;
+}
+.mainphoto {
+  width: 100%;
+}
+#white {
+  background-color: white;
+  height: 300px;
+  width: 100%;
+}
+#menu {
+  font-family: Berkshire Swash;
+  font-size: 80px;
+  text-align: center;
+  margin-top: 30px;
+}
+.coffee {
+  background-color: #d2d2fa;
+  font-family: Berkshire Swash;
+  font-size: 50px;
+  text-align: center;
+  margin-top: 50px;
+}
+.coffeeinfo {
+  font-family: Berkshire Swash;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 40px;
+  line-height: 25px;
+}
+.desserts {
+  background-color: #d2d2fa;
+  font-family: Berkshire Swash;
+  font-size: 50px;
+  text-align: center;
+  margin-top: 50px;
+}
+.dessertsinfo {
+  font-family: Berkshire Swash;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 40px;
+  line-height: 25px;
+}
+.Entrees {
+  background-color: #d2d2fa;
+  font-family: Berkshire Swash;
+  font-size: 50px;
+  text-align: center;
+  margin-top: 50px;
+}
+.entreessinfo {
+  font-family: Berkshire Swash;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 40px;
+  line-height: 25px;
+}
+.fries {
+  font-size: 25px;
+  line-height: 20px;
+}
+.drinks {
+  background-color: #d2d2fa;
+  font-family: Berkshire Swash;
+  font-size: 50px;
+  text-align: center;
+  margin-top: 50px;
+}
+.drinksinfo {
+  font-family: Berkshire Swash;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 40px;
+  line-height: 25px;
+}
+.ades {
+  font-size: 25px;
+  line-height: 20px;
+}
+.about {
+  margin-top: 30px;
+  background-color: #ffa07a;
+  width: 100%;
+}
+#owner {
+  font-family: Berkshire Swash;
+  font-size: 80px;
+  text-align: center;
+  margin-top: 30px;
+  padding-top: 30px;
+}
+.Gurley {
+  display: block;
+  margin-left: 300px;
+  margin-right: auto;
+  margin-top: 50px;
+  height: 500px;
+  display: inline;
+}
+.name {
+  font-family: Berkshire Swash;
+  color: white;
+  font-size: 80px;
+  position: absolute;
+  top: 3570px;
+  left: 650px;
+}
+.gurleyinfo {
+  font-family: trocchi;
+  font-size: 40px;
+  padding: 20px;
+}
+.white2 {
+  background-color: white;
+  height: 200px;
+  width: 100%;
+}
+#currentuse {
+  font-family: Berkshire Swash;
+  font-size: 80px;
+  text-align: center;
+  padding-top: 40px;
+}
+.currentuseinfo {
+  font-family: trocchi;
+  font-size: 40px;
+  padding: 15px;
+}
+#connect {
+  font-family: Advent Pro;
+  font-size: 70px;
+  display: inline-block;
+  margin-right: 380px;
+}
+.logo {
+  position: absolute;
+  top: 600px;
+  left: 70px;
+}
+.commercial {
+  margin-top: 70px;
+  height: 210px;
+  background-color: #ffa07a;
+}
+.cheesecake {
+  height: 250px;
+  width: 250px;
+  border-radius: 30px;
+  margin-left: 30px;
+  margin-top: 20px;
+  border: solid 2px;
+}
+.cookies {
+  border-radius: 30px;
+  height: 250px;
+  width: 250px;
+  margin-left: 30px;
+  border: solid 2px;
+}
+.juice {
+  border-radius: 30px;
+  height: 250px;
+  width: 250px;
+  margin-left: 30px;
+  border: solid 2px;
+}
+.coffeee {
+  border-radius: 30px;
+  border: solid 2px;
+  height: 250px;
+  width: 250px;
+  margin-left: 30px;
+}

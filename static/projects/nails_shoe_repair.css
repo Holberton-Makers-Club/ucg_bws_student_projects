@@ -1,0 +1,94 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Mono);
+@import url(https://fonts.googleapis.com/css?family=Philosopher);
+
+body {
+  margin: 0px;
+  font-family: "Philosopher";
+}
+div#header {
+  background-color: #c48a3b;
+  background-image: linear-gradient(#b84f48, #c48a3b);
+  padding: 20px;
+  padding: 2px;
+  padding-left: 20px;
+  margin: 0px;
+}
+div#header * {
+  color: #060080;
+}
+h1 {
+  font-size: 30pt;
+  margin-right: 30%;
+  font-family: "Roboto Mono", serif;
+  display: inline-block;
+}
+#navbar {
+  display: flex;
+  justify-content: flex-start;
+}
+#navbar a {
+  font-size: 22pt;
+  margin-right: 20px;
+  text-decoration: none;
+  margin-bottom: 5px;
+}
+.body {
+  vertical-align: top;
+  background-color: tan;
+}
+.body img{
+  width: 60%;
+  height: 500px;
+}
+
+#about {
+  padding: 20px;
+  background-color: black;
+  opacity: .9;
+  display: inline-block;
+  width: 36%;
+  height: 460px;
+  vertical-align:top;
+}
+#about h3,
+p {
+  color: white;
+  opacity: 1;
+}
+h3 {
+  font-size: 38px;
+  margin: 0px;
+  font-family: "Roboto Mono";
+}
+#about p {
+  font-size: 28px;
+}
+
+#owner {
+  background-image: linear-gradient(#c48a3b, #b84f48);
+  padding: 20px;
+}
+
+#contact {
+  background-color: black;
+  color: white;
+}
+h2 {
+  color: #060080;
+  margin: 0px;
+  font-size: 38px;
+  font-family: "Roboto Mono";
+}
+#owner p {
+  font-size: 28px;
+}
+
+#contact p {
+  margin: 0;
+  font-size: 28px;
+}
+
+#contact {
+  padding: 20px;
+  text-align: center;
+}

@@ -1,0 +1,127 @@
+body {
+  margin: 0 0;
+  background-color: #fff1dc;
+}
+
+.base {
+  width: 100vw;
+  background-color: #fff1dc;
+}
+.toprectangle {
+  background-color: #87dbff;
+  padding: 5px;
+  display: block;
+}
+.title {
+  height: 100px;
+  margin: 5px;
+}
+.toppic {
+  height: 100%;
+  width: 300px;
+  margin-left: 400px;
+}
+.tab {
+  font-family: Viga;
+  font-size: 25px;
+  line-height: 81px;
+  text-decoration: none;
+  color: white;
+  margin-left: 20px;
+  padding-top: 20px;
+  vertical-align: top;
+}
+.tab:hover {
+  color: black;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.picture {
+  width: 100vw;
+  height: 60vw;
+}
+.rectangle {
+  background: #cccccc;
+  width: 91.5vw;
+  height: 100%;
+  padding-bottom: 20px;
+  margin-left: 55px;
+}
+h3 {
+  font-family: Viga;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 200%;
+  line-height: 20px;
+  margin-left: 40px;
+  padding-top: 35px;
+  color: white;
+}
+.text {
+  font-family: Viga;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 180%;
+  line-height: 45px;
+  margin-left: 15px;
+}
+.pictext {
+  font-family: Viga;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 10px;
+  color: black;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.group1 {
+  height: 200px;
+  width: 30%;
+  margin-right: 3%;
+  margin-left: 20px;
+  background-image: url("https://cdn.pixabay.com/photo/2020/03/19/02/08/towel-4945972__340.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+.containerall {
+  display: block;
+}
+.group2 {
+  height: 200px;
+  width: 30%;
+  margin-right: 3%;
+  background-image: url("https://bostonglobe-prod.cdn.arcpublishing.com/resizer/JWBrWbwDxQLqBbNjcOE0w38GP1c=/1440x0/arc-anglerfish-arc2-prod-bostonglobe.s3.amazonaws.com/public/V7CCLSUCI4I6TF4IYUKWBGQPV4.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+.group3 {
+  height: 200px;
+  width: 30%;
+  background-image: url("https://cdn.pixabay.com/photo/2016/12/05/19/43/pill-1884775_1280.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+.containerall div {
+  display: inline-block;
+  margin-top: 20px;
+}
+.rec2 a {
+  margin-left: 200px;
+}
+.last p{
+  display: inline-block;
+  width: 40%;
+}
+
+.pictop {
+  display: inline-block;
+  vertical-align: top;
+  width: 40%;
+  margin-left: 10%;
+}

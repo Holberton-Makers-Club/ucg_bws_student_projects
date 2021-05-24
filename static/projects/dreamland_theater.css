@@ -1,0 +1,87 @@
+@import url(https://fonts.googleapis.com/css?family=Dancing+Script);
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+
+body {
+  margin: 0;
+}
+* {
+  font-family: "Raleway";
+}
+.header {
+  padding: 5px;
+  background-color: gold;
+}
+.header h1 {
+  color: #26c3eb;
+  display: inline-block;
+  font-family: "Dancing Script";
+  font-size: 52px;
+  margin-bottom: 5px;
+  margin-right: 20%;
+}
+.header h3 {
+  display: inline-block;
+  font-family: "Dancing Script";
+  font-size: 36px;
+}
+.header button {
+  display: block;
+}
+
+.body {
+  background-color: gold;
+  display: block;
+  padding: 20px;
+  padding-bottom: 80px;
+  height: 260px;
+}
+
+.about {
+  background-color: white;
+  border: 12px solid maroon;
+  display: inline-block;
+  padding: 20px;
+  margin-left: 7%;
+  margin-right: 5%;
+  width: 40%;
+}
+.about h4 {
+  font-size: 40px;
+  padding: 0;
+  margin: 5px;
+}
+.about p {
+  font-size: 22px;
+}
+
+.image {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.image img {
+  vertical-align: top;
+  height: 300px;
+  margin-top: 10px;
+}
+
+#owner {
+  padding: 10px;
+  border: 12px solid black;
+}
+#owner img {
+  height: 300px;
+}
+#owner .text {
+  display: inline-block;
+  vertical-align: top;
+  padding: 20px;
+  width: 60%;
+}
+.text h2 {
+  font-size: 40px;
+  margin: 0px;
+}
+.text p {
+  font-size: 22px;
+}

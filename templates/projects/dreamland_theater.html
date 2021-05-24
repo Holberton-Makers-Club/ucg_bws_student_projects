@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Dreamland Theater</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='projects/dreamland_theater.css') }}">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<body>
+  <div class="header">
+    <h1>Dreamland Theater</h1>
+    <h3>The only colored theatre in the city.</h3>
+    <button onClick=clickButton1()>Press Me!</button>
+  </div>
+  <div class="body">
+    <div class="about">
+      <h4>About Us</h4>
+      <button onClick=clickButton4()>Press Me!</button>
+      <p>We’re located at 127 N. Greenwood. We have a seating capacity of 750, with movie tickets costing 15 cents! We hold not only silent films but also live performances. Our theatre has also served as a community gathering spot.</p>
+    </div>
+    <div class="image">
+      <img src=http://photos.cinematreasures.org/production/photos/165161/1461084512/large.jpg?1461084512>
+    </div>
+  </div>
+  <div id="owner">
+    <img src=https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Colorful_and_Inviting_Candy_Store_%2814867133277%29.jpg/1280px-Colorful_and_Inviting_Candy_Store_%2814867133277%29.jpg>
+    <div class="text">
+
+      <h2>Owner Bio</h2>
+      <p>
+        Loula Williams and her husband John Wesley were some of Greenwood’s first residents. John was a mechanic and Loula was a teacher. Soon Loula decided to make a career change, she opened a confectionary.
+      </p>
+      <button onClick=clickButton2()>Press Me!</button>
+    </div>
+  </div>
+</body>
+<!-- partial -->
+  <link rel="stylesheet" href="{{ url_for('static', filename='scripts/dreamland_theater.js') }}">
+
+</body>
+</html>

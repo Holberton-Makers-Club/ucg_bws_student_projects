@@ -10,31 +10,258 @@
 
 {% block content %}
 
-<section id="hero">
-    hero
+<section id="hero" class="dark-theme w-100 py-4 d-flex justify-content-center">
+    
+    <div class="col-sm-10 col-md-9 w-100 text-center d-flex justify-content-center flex-column align-items-center">
+        <div id="call-to-action"><h1>Historic Black Wallstreet Directory</h1></div>
+        <div class="mt-3 hero-blurb">
+Urban Coders Guild exists to provide STEM education opportunities and training, while removing many of the obstacles to access including lack of technology learning resources (hardware, high-speed internet, quality instructors, etc.), lack of transportation to classes sessions and other educational opportunities, and childhood hunger. Urban Coders Guild exists to help educate parents, especially those of Black and Brown children and those of young girls, about the opportunities STEM and computer science education can offer their children. And Urban Coders recognizes the need to provide multiple pathways for students – academic, professional, and entrepreneurial. All students will be exposed to coding technologies, but in developing a viable tech ecosystem, we recognize the need to showcase other roles within the tech sphere: IT project managers and business analysts, product designers, product developers, tech salespeople, as well as future tech entrepreneurs.
+        </div>
+        <div class="mt-3 hero-blurb">
+            The Historic Black Wall Street Directory is a collection of web pages and an accompanying mobile app for the businesses lost in the 1921 Tulsa Race Massacre. This one of a kind product honors Black Wall Street by creating a through line from past to the present and imagining those businesses as vibrant, thriving enterprises in the present Internet Age.
+        </div>
+        <div class="mt-3 hero-blurb">
+            Urban Coders Guild middle and high school students spent a year learning web and mobile app development skills, and used those newly acquired skills to create the Historic Black Wall Street Directory as their capstone project. Future students will work to complete the directory as they too learn web and mobile app development skills. In this way, the directory will grow and evolve as a learning resource both for Urban Coders Guild students and anyone interested in the history of Greenwood.
+        </div>
+        <a href="#learn-more" id="learn-more" class="text-light mt-5 pb-2"><u>LEARN MORE</u></a>
+    </div>
 </section>
 
 <section id="carousel">
-    carousel
+<div id="carouselExampleIndicators" class="carousel slide bg-dark w-100" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+  </ol>
+  <div class="carousel-inner d-flex pb-2">
+    <div class="carousel-item active logos py-3 px-2">
+        <div class="row justify-content-around">
+            <a href="{{ url_for('cozy_barber_shop') }}">             
+            <img src="https://storage.googleapis.com/ucg-static-imgs/TheCozyBarbershop_FinalLogoRGB_DevonParsons.png" class="d-block" alt="...">
+            </a>
+            <a href="{{ url_for('red_wing_cafe') }}">
+            <img src="https://storage.googleapis.com/ucg-static-imgs/RedWingCafe_Logo_Color.png" class="d-block" alt="...">
+            </a>
+            <a href="{{ url_for('dixie_theater') }}">  
+                <img src="https://storage.googleapis.com/ucg-static-imgs/DixieTheater_FinalLogoRGB_JenniferDale.png" class="d-block" alt="...">
+            </a>
+        </div>
+    </div>
+    <div class="carousel-item logos py-3 px-2"  onclick="alert('coming soon')">
+      <div class="row justify-content-around">
+        <img class="coming-soon" src="https://storage.googleapis.com/ucg-static-imgs/HAGuess_FinalLogoRGB_RebeckaHallum.png" class="d-block" alt="...">
+        <img class="coming-soon" src="https://storage.googleapis.com/ucg-static-imgs/ClarksTailoring_Logo_Color.png" class="d-block" alt="...">
+        <img class="coming-soon" src="https://storage.googleapis.com/ucg-static-imgs/TheStradfordHotel_FinalLogoRGB_DonovanGilreath.PNG" class="d-block" alt="...">
+      </div>
+    </div>
+    <div class="carousel-item logos py-3 px-2">
+        <div class="row justify-content-around"  onclick="alert('coming soon')">
+            <img class="coming-soon" src="https://storage.googleapis.com/ucg-static-imgs/Cavers_FinalLogoRGB_RebeckaHallumCook.png" class="d-block" alt="...">
+            <img class="coming-soon" src="https://storage.googleapis.com/ucg-static-imgs/RedWingTailor_Logo_Color.png" class="d-block" alt="...">
+            <img class="coming-soon" src="https://storage.googleapis.com/ucg-static-imgs/S.L.NealTailor_FinalLogoRGB_SeanSteed.png" class="d-block" alt="...">
+        </div>
+    </div>
+    <div class="carousel-item logos py-3 px-2">
+      <div class="row justify-content-around" onclick="alert('coming soon')">
+        <img class="coming-soon" src="https://storage.googleapis.com/ucg-static-imgs/RedWingHotel_Logo-Color.png" class="d-block" alt="...">
+        <img class="coming-soon" src="https://storage.googleapis.com/ucg-static-imgs/StarPrinting_FinalLogoRGB_KevinShank.png" class="d-block" alt="...">
+      </div>
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
 </section>
 
 <section id="student_projects">
-    student student_projects
-    <div class="light-theme">
-        light
+    <div class="light-theme d-flex flex-wrap justify-content-around pt-2">
+
+        
+        <div class="project my-3">
+            <header class="project-title">
+                <a href="{{ url_for('baker_drug_store') }}">             
+                    <img class="logo" src="https://storage.googleapis.com/ucg-static-imgs/baker.png">
+                    <h2 class="color">Bryant Baker Drug Store</h2>
+                </a>
+            </header>
+            <div class="row">
+                <div class="col text-muted">
+                    <span class="text-dark">Created by:<br></span>
+                    Erina Katoh<br>
+                    Emilia Nguyen<br>
+                    Reyhana Fouda<br>
+                </div>
+                <div class="col text-muted">
+                    <span class="text-dark">Information collected by:<br></span>
+                    Erika Baker
+                </div>
+            </div>
+        </div>
+
+        
+
+        <div class="project my-3">
+            <header class="project-title">
+                <a href="{{ url_for('cains_cafe') }}">             
+                <img class="logo" src="https://storage.googleapis.com/ucg-static-imgs/cains_cafe.png">
+                <h2 class="color">Cains Cafe</h2>
+                </a>
+            </header>
+            <div class="row">
+                <div class="col text-muted">
+                    <span class="text-dark">Created by:<br></span>
+                    Jamal Bogle<br>
+                    
+                </div>
+            </div>
+        </div>
+
+
+        <div class="project my-3">
+            <header class="project-title">
+                <a href="{{ url_for('cozy_barber_shop') }}">             
+                    <img class="logo border" src="https://storage.googleapis.com/ucg-static-imgs/TheCozyBarbershop_FinalLogoRGB_DevonParsons.png">
+                    <h2 class="color">Cozy Barber Shop</h2>
+                </a>
+            </header>
+            <div class="row">
+                <div class="col text-muted">
+                    <span class="text-dark">Created by:<br></span>
+                    Erina Katoh<br>
+                    Emilia Nguyen<br>
+                    Reyhana Fouda<br>
+                </div>
+                
+            </div>
+        </div>
+        
+        
+
     </div>
 
-    <div class="dark-theme">
-        dark
+    <div class="dark-theme d-flex flex-wrap justify-content-around pt-2">
+
+        <div class="project my-3">
+            <header class="project-title">
+                <a href="{{ url_for('dixie_theater') }}">             
+                    <img class="logo border" src="https://storage.googleapis.com/ucg-static-imgs/DixieTheater_FinalLogoRGB_JenniferDale.png">
+                    <h2 class="text-light">Dixie Theater</h2>
+                </a>
+            </header>
+            <div class="row">
+                <div class="col">
+                    Created by:<br>
+                    Journay Horn<br>
+                </div>
+                
+            </div>
+        </div>
+
+
+        <div class="project my-3">
+            <header class="project-title">
+                <a href="{{ url_for('dock_eastman') }}">             
+                    <img class="logo border" src="https://storage.googleapis.com/ucg-static-imgs/dock_eastman.png">
+                    <h2 class="text-light">Dock Eastman & Hugh's Cafe</h2>
+                </a>
+            </header>
+            <div class="row">
+                <div class="col">
+                    <span>Created by:<br></span>
+                    Erina Katoh<br>
+                    Emilia Nguyen<br>
+                    Reyhana Fouda<br>
+                </div>
+                
+            </div>
+        </div>
+
+
+        <div class="project my-3">
+            <header class="project-title">
+                <a href="{{ url_for('red_wing_cafe') }}">             
+                    <img class="logo border" src="https://storage.googleapis.com/ucg-static-imgs/RedWingCafe_Logo_Color.png">
+                    <h2 class="text-light">Red Wing Cafe</h2>
+                </a>
+            </header>
+            <div class="row">
+                <div class="col">
+                    Created by:<br>
+                    Jaxson Upton<br>
+                </div>
+                
+            </div>
+        </div>
+
+        
+
     </div>
 
-    <div class="light-theme">
-        light
+    <div class="light-theme d-flex flex-wrap justify-content-around pt-2">
+        
+
+        <div class="project my-3">
+            <header class="project-title">
+                <a href="{{ url_for('hotel_alexandar') }}">             
+                    <img class="logo border" src="https://storage.googleapis.com/ucg-static-imgs/hotel_alex.png">
+                    <h2 class="color">Hotel Alexander</h2>
+                </a>
+            </header>
+            <div class="row">
+                <div class="col text-muted">
+                    Created by:<br>
+                    Tristan Anderson<br>
+                </div>
+                
+            </div>
+        </div>
+
+
+        <div class="project my-3">
+            <header class="project-title">
+                <a href="{{ url_for('nails_shoe_repair') }}">             
+                    <img class="logo border" src="https://storage.googleapis.com/ucg-static-imgs/nails_shoe_repair.png">
+                    <h2 class="color">Nails Brothers Shoe Repair</h2>
+                </a>
+            </header>
+            <div class="row">
+                <div class="col text-muted">
+                    Created by:<br>
+                    Tristan Anderson<br>
+                </div>
+                
+            </div>
+        </div>
+
+        <div class="project my-3">
+            <header class="project-title">
+                <a href="{{ url_for('dreamland_theater') }}">             
+                    <img class="logo border" src="https://storage.googleapis.com/ucg-static-imgs/dreamland_theater.png">
+                    <h2 class="color">Dreamland Theater</h2>
+                </a>
+            </header>
+            <div class="row">
+                <div class="col text-muted">
+                    Created by:<br>
+                    Journay Horn<br>
+                </div>
+                
+            </div>
+        </div>
+
+
+
     </div>
 
-    <div class="dark-theme">
-        dark
-    </div>
+
 
 </section>
 

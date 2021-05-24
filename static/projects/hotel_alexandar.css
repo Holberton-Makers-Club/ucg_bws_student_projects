@@ -1,0 +1,142 @@
+@import url(https://fonts.googleapis.com/css?family=Prata);
+
+body {
+  background-color: #868689;
+}
+div {
+  padding: 20px;
+}
+h1,
+p,
+a {
+  font-family: Prata;
+}
+a {
+  font-size: 18px;
+}
+#top {
+  background-color: #7b9e61;
+  border-radius: 20px;
+}
+#top h1,
+a {
+  display: inline-block;
+}
+#top h1 {
+  margin-right: 35%;
+}
+#about {
+  background-color: #659a8a;
+  margin-top: 20px;
+  border-radius: 20px;
+}
+.text {
+  display: inline-block;
+  margin-top: -40px;
+  width: 45%;
+  margin-bottom: 0px;
+}
+#about h1 {
+  display: inline-block;
+  margin-bottom: 0;
+}
+#about p {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 16pt;
+  margin-bottom: 0px;
+}
+#about img {
+  width: 40%;
+  vertical-align: top;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+
+#contact {
+  background-color: #636c9c;
+  margin: 30px;
+  border-radius: 20px;
+  width: 80%;
+}
+#lobby {
+  background-color: #90b34c;
+  margin: 30px;
+  margin-top: 30px;
+  border-radius: 20px;
+  width: 80%;
+  margin-left: 15%;
+}
+
+#black {
+  background-color: #a95677;
+  margin: 30px;
+  margin-top: 30px;
+  border-radius: 20px;
+}
+
+#purple {
+  background-color: #2cb7d3;
+  height: 300px;
+  margin: 30px;
+  margin-top: 30px;
+  width: 900px;
+}
+
+h1 {
+  text-align: cente;
+}
+.alexander {
+  display: inline-block;
+  vertical-align: top;
+}
+.wrapper {
+  display: inline-block;
+  vertical-align: top;
+  width: 45%;
+}
+
+#bedroom {
+  width: 45%;
+  margin-top: 20px;
+  max-height: 300px;
+}
+#lobby h1 {
+  display: inline-block;
+  vertical-align: top;
+  width: 35%;
+}
+#cool {
+  margin-left: 100px;
+  width: 50%;
+  display: inline-block;
+}
+
+#image img {
+  height: 303px;
+  margin-top: -30px;
+}
+
+#help img {
+  height: 350px;
+}
+
+.yeet {
+  padding-right: 0px;
+}
+.yeet img {
+  width: 40%;
+}
+
+.yeet * {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.text-wrapper {
+  width: 50%;
+}
+
+img {
+  border: 3px solid black;
+}

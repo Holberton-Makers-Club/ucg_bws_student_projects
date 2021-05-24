@@ -34,6 +34,40 @@ def donate():
 def red_wing_cafe():
     return render_template('projects/red_wing_cafe.html')
 
+@app.route('/baker_drug_store', methods=['GET'], strict_slashes=False)
+def baker_drug_store():
+    return render_template('projects/baker_drug_store.html')
+
+@app.route('/cains_cafe', methods=['GET'], strict_slashes=False)
+def cains_cafe():
+    return render_template('projects/cains_cafe.html')
+
+@app.route('/cozy_barber_shop', methods=['GET'], strict_slashes=False)
+def cozy_barber_shop():
+    return render_template('projects/cozy_barber_shop.html')
+
+@app.route('/dixie_theater', methods=['GET'], strict_slashes=False)
+def dixie_theater():
+    return render_template('projects/dixie_theater.html')
+
+@app.route('/dock_eastman', methods=['GET'], strict_slashes=False)
+def dock_eastman():
+    return render_template('projects/dock_eastman.html')
+
+@app.route('/dreamland_theater', methods=['GET'], strict_slashes=False)
+def dreamland_theater():
+    return render_template('projects/dreamland_theater.html')
+
+@app.route('/hotel_alexandar', methods=['GET'], strict_slashes=False)
+def hotel_alexandar():
+    return render_template('projects/hotel_alexandar.html')
+
+@app.route('/nails_shoe_repair', methods=['GET'], strict_slashes=False)
+def nails_shoe_repair():
+    return render_template('projects/nails_shoe_repair.html')
+
+    
+
 
 """
 ERROR HANDLERS

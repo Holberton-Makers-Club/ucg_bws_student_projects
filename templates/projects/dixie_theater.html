@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Dixie Theater</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='projects/dixie_theater.css') }}">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<body>
+  <div id="logo">
+    <img src="https://i.ibb.co/F3d0nHZ/Dixie-Theater-Final-Logo-RGB-Jennifer-Dale.jpg" ; alt="Dixie-Theater-Final-Logo-RGB-Jennifer-Dale" border="0">
+    <div id="tagline">
+      <h1> Come and see the best programs available. Any day of the week!</h1>
+    </div>
+  </div>
+  <div id="about">
+    <h2 class="about-text">About Us</h2>
+    <p>The Dixie Theater was a white-owned business in Greenwood owned by William Redfern. It was located at 120 N Greenwood. At the time it was the second largest theater in Tulsa seating one thousand people.</p>
+    <button onClick=clickButton4()>Click Me!</button>
+  </div>
+  <div class="img">
+    <img src="https://i.ibb.co/XYg20pm/dixie.jpg" ; alt="dixie" border="0" />
+  </div>
+  <div id="box-owner">
+    <h2 class="owner-head">Theaters Owner</h2>
+    <p>William Redfern had owned two businesses which both burned in the riot. These businesses were insured for nineteen thousand dollars, but the insurance company refused to pay claiming the riot an exclusion to their policy. Redfern filed many lawsuits one of which has become the most reliable retelling of the riot. </p>
+
+    <button onClick=clickButton2()>Push Me!</button>
+
+  </div>
+  <div id="box">
+    <h2 id="location">Theaters Location</h2>
+    <div class="textbox">
+      <p>It was located at 120 N Greenwood
+        Today at this location is Tee's Barber Shop.</p>
+      <button onClick=clickButton3()>Push Me!</button>
+    </div>
+    <img src="https://i.ibb.co/NY3B0NF/dixie2.jpg" id="dixie" alt="dixie2" border="0" />
+  </div>
+<!-- partial -->
+  <script  src="{{ url_for('static', filename='scripts/dixie_theater.js') }}"></script>
+
+</body>
+</html>
