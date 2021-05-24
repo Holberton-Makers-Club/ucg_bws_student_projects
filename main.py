@@ -24,11 +24,11 @@ def index():
 
 @app.route('/thank_you', methods=['GET'], strict_slashes=False)
 def thank_you():
-    return render_template('index.html')
+    return render_template('thank_you.html')
 
 @app.route('/donate', methods=['GET'], strict_slashes=False)
 def donate():
-    return render_template('index.html')
+    return render_template('donate.html')
 
 @app.route('/red_wing_cafe', methods=['GET'], strict_slashes=False)
 def red_wing_cafe():

@@ -1,0 +1,192 @@
+{% extends "base.html" %}
+{% block title %} Special Thanks
+{% endblock %}
+{% block head %}
+  {{ super() }}
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='thank_you.css') }}">
+
+{% endblock %}
+
+{% block content %}
+
+
+
+<section id="hero" class="dark-theme w-100 py-4 d-flex justify-content-center">
+    
+    <div class="col-sm-10 col-md-6  w-100 text-center d-flex justify-content-center flex-column align-items-center">
+        <div id="call-to-action"><h1>A special thank you</h1></div>
+        <div class="mt-3 hero-blurb">
+            Historic Black Wall Street was a thriving community built by Black visionaries and entrepreneurs at the turn of the 20th century. Much like historic Greenwood, we could not have realized the project without the generous support of our community partners and sponsors.
+        </div><br><br>
+            <!--
+                <strong>Thank you to our partners and sponsors!</strong><br>
+        <div class="mt-3 hero-blurb text-dark d-flex w-100 border row">
+            <div class="col">
+                1921 Tulsa Race Massacre Centennial Commemoration Commission<br>
+                Asemio<br>
+                Bloomberg Philanthropies<br>
+                Coretz Family Foundation<br>
+                Tulsa Community College<br>
+            </div>
+            <div class="col">
+                Charles and Lynn Schusterman Family Foundation<br>
+                George Kaiser Family Foundation<br>
+                Greenwood Art Project<br>
+                Holberton School<br>
+                QuikTrip Corporation<br>
+            </div>
+            
+        </div>
+            -->
+    </div>
+</section>
+
+
+
+<section id="donor_partner_thanks" class="lightest-theme d-flex flex-wrap justify-content-around pt-2 px-5">
+    
+    <h2 class="font-weight-light mt-5">...to our partners and sponsors!</h2>
+    <div class=" d-flex flex-wrap justify-content-center align-items-center pt-2">
+
+        <div class="my-3 mx-2 col">
+                <a href="https://www.tulsa2021.org/">             
+                    <img class="logo-sm" src="http://static1.squarespace.com/static/5ea8334f5334b8122b5ac3e6/t/5fc1cf7308845d0924ccf329/1614025032495/TULSA+2021+-+MASSACRE+LOGO+%28v19-0102%29.png">
+                </a>
+        </div>
+
+        <div class="my-4 mx-2 col">
+                <a href="https://www.asemio.com/">             
+                    <img class="logo-sm" src="https://www.asemio.com/wp-content/uploads/2019/10/Asemio.png">
+                </a>
+        </div>
+
+        <div class="my-4 mx-2 col">
+                <a href="https://www.bloomberg.org/">             
+                    <img class="logo-sm" src="https://www.bloomberg.org/content/themes/dotorg2019/public/logo.svg">
+                </a>
+        </div>
+        
+        <div class="my-4 mx-2 col">
+                <a href="https://www.schusterman.org/">       
+                    <img class="logo-sm" src="http://www.schusterman.org/sites/default/files/schusterman-logo.png">
+                </a>
+        </div>
+        
+        <div class="my-4 mx-2 col">
+                <a href="https://coretzfamilyfoundation.org/">
+                    <img class="logo-sm" src="https://hungerfreeok.org/wp-content/uploads/2018/06/Coretz-FF-logo.png">
+                </a>
+        </div>
+        
+        <div class="my-4 mx-2 col">
+                <a href="https://www.gkff.org/">
+                    <img class="logo-sm" src="https://images.squarespace-cdn.com/content/v1/55085720e4b0813599644fae/1469032929454-GFMXESRRTYKG3BXS3VLQ/ke17ZwdGBToddI8pDm48kHeVmR2l3tIkQlLXONYte_gUqsxRUqqbr1mOJYKfIPR7HqPXWcFyPbLMXtOzFZtQBRx9yxala7xiss0F540IdaVCRW4BPu10St3TBAUQYVKcphhmRelu0QIE0tBD3YE-s9QfLCNzhTTSqLqbxLg-SMfmDU56sduWBTuTYwyyIBwC/image-asset.jpeg">
+                </a>
+        </div>
+
+        <div class="my-4 mx-2 col">
+                <a href="https://www.greenwoodartproject.org/">
+                    <img class="logo-sm" src="https://static1.squarespace.com/static/5ed3170159ec2e0cbc41bfc3/t/60a2859191a61c7799cb312f/1621796108853/?format=1500w">
+                </a>
+        </div>
+        
+        <div class="my-4 mx-2 col">
+                <a href="https://www.holbertonschool.com/">
+                    <img class="logo-sm" src="https://www.holbertonschool.com/holberton-logo.png">
+                </a>
+        </div>                
+   
+        <div class="my-4 mx-2 col">
+                <a href="https://www.quiktrip.com/">
+                    <img class="logo-sm" src="https://upload.wikimedia.org/wikipedia/commons/f/fc/QuikTrip_logo.png">
+                </a>
+        </div>
+                
+        <div class="my-4 mx-2 col">
+                <a href="https://www.tulsacc.edu/">
+                    <img class="logo-sm" src="https://upload.wikimedia.org/wikipedia/commons/4/45/New_TCC_LOGO_2.jpg">
+                </a>
+        </div>
+    
+</section>
+
+
+
+<section id="student_thanks" class="dark-theme d-flex flex-column align-items-center w-100 pt-5">
+    <h2 class="font-weight-light my-3 mb-5">Thank you to our students!</h2>
+    <div class="row w-50 text-center">
+        <div class="col">
+            Erina Katoh<br><br>
+            Emilia Nguyen<br><br>
+            Reyhana Fouda<br><br>
+            Erika Baker<br><br>
+        </div>
+        <div class="col w-50 text-center pb-5">
+            Jamal Bogle<br><br>
+            Journay Horn<br><br>
+            Jaxson Upton<br><br>
+            Tristan Anderson<br><br>
+        </div>
+    </div>
+</section>
+
+
+
+
+<section id="team_thanks" class="light-theme d-flex flex-column align-items-center w-100 py-3">
+    <h2 class="font-weight-light my-3">Thank you to our team!</h2>
+    <div class="row w-50 text-center py-4">
+        <div class="col">
+            Mikeal Vaughn, Urban Coders Guild founder and executive director<br><br>
+            
+            Jeremy Benedik, Web Development Instructor<br>
+            Reyhana Fouda<br>
+            Abraham Ponceano Dominguez<br>
+            John McMickle<br>
+            Emilia H. Nguyen<br>
+            Angelo Isaiah Estes<br>
+            Delaney R. Clendenin<br>
+            Mackenzie Amerie Manning<br>
+            Tristan Edwin Anderson-Harrison<br>
+            Angel Fortanelly<br>
+            Sephora D. Dirks<br>
+            James R. Wilson<br>
+            Marcus D. Johnson, II<br>
+            Erina Katoh<br>
+            Takiyah I. Randey<br>
+            Aspen J Suarez<br>
+            Jordon Isaiah Kelly<br>
+            Jaxson L. Upton<br>
+            Jamal G. Bogle Jr.<br>
+            
+        </div>
+        <div class="col w-50 text-center">
+            
+            Dr. William Smith, Android/iOS App Development Instructor<br><br>
+            Landon K. Phillips<br>
+            Adela G. Nagle<br>
+            Jalen A. Payne<br>
+            Austin G. Gaines<br>
+            Kai Lakota Crawford<br>
+            Ileigha Z. Tyler<br>
+            Kaydence Mann<br>
+            Edan Beverly<br>
+            Seth T. Williston<br>
+            Isaac J. Arterberry<br>
+            Raven G. Arterberry<br>
+            Olivia M. Gross<br>
+            Tre Creggett<br>
+            Jesiah T. Mays<br>
+            Bryan A. Cruz<br>
+            Robert Yu Lilly<br>
+            Emma I. Stansell<br>
+            Camryn T. Ransburg<br>
+            Pachia M. Nye<br>
+            Heaven la Holland<br>
+        </div>
+    </div>
+</section>
+
+
+{% endblock %}

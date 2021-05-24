@@ -27,8 +27,11 @@ Urban Coders Guild exists to provide STEM education opportunities and training, 
     </div>
 </section>
 
+
+
+
 <section id="carousel">
-<div id="carouselExampleIndicators" class="carousel slide bg-dark w-100" data-ride="carousel">
+<div id="carouselExampleIndicators" class="carousel slide bg-dark w-100 pt-3" data-ride="carousel">
   <ol class="carousel-indicators">
     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -37,36 +40,36 @@ Urban Coders Guild exists to provide STEM education opportunities and training, 
   </ol>
   <div class="carousel-inner d-flex pb-2">
     <div class="carousel-item active logos py-3 px-2">
-        <div class="row justify-content-around">
+        <div class="row justify-content-center">
             <a href="{{ url_for('cozy_barber_shop') }}">             
-            <img src="https://storage.googleapis.com/ucg-static-imgs/TheCozyBarbershop_FinalLogoRGB_DevonParsons.png" class="d-block" alt="...">
+            <img class=" mx-5" src="https://storage.googleapis.com/ucg-static-imgs/TheCozyBarbershop_FinalLogoRGB_DevonParsons.png" class="d-block" alt="...">
             </a>
             <a href="{{ url_for('red_wing_cafe') }}">
-            <img src="https://storage.googleapis.com/ucg-static-imgs/RedWingCafe_Logo_Color.png" class="d-block" alt="...">
+            <img class=" mx-5" src="https://storage.googleapis.com/ucg-static-imgs/RedWingCafe_Logo_Color.png" class="d-block" alt="...">
             </a>
             <a href="{{ url_for('dixie_theater') }}">  
-                <img src="https://storage.googleapis.com/ucg-static-imgs/DixieTheater_FinalLogoRGB_JenniferDale.png" class="d-block" alt="...">
+                <img class=" mx-5" src="https://storage.googleapis.com/ucg-static-imgs/DixieTheater_FinalLogoRGB_JenniferDale.png" class="d-block" alt="...">
             </a>
         </div>
     </div>
     <div class="carousel-item logos py-3 px-2"  onclick="alert('coming soon')">
-      <div class="row justify-content-around">
-        <img class="coming-soon" src="https://storage.googleapis.com/ucg-static-imgs/HAGuess_FinalLogoRGB_RebeckaHallum.png" class="d-block" alt="...">
-        <img class="coming-soon" src="https://storage.googleapis.com/ucg-static-imgs/ClarksTailoring_Logo_Color.png" class="d-block" alt="...">
-        <img class="coming-soon" src="https://storage.googleapis.com/ucg-static-imgs/TheStradfordHotel_FinalLogoRGB_DonovanGilreath.PNG" class="d-block" alt="...">
+      <div class="row justify-content-center">
+        <img class="coming-soon mx-5" src="https://storage.googleapis.com/ucg-static-imgs/HAGuess_FinalLogoRGB_RebeckaHallum.png" class="d-block" alt="...">
+        <img class="coming-soon mx-5" src="https://storage.googleapis.com/ucg-static-imgs/ClarksTailoring_Logo_Color.png" class="d-block" alt="...">
+        <img class="coming-soon mx-5" src="https://storage.googleapis.com/ucg-static-imgs/TheStradfordHotel_FinalLogoRGB_DonovanGilreath.PNG" class="d-block" alt="...">
       </div>
     </div>
     <div class="carousel-item logos py-3 px-2">
-        <div class="row justify-content-around"  onclick="alert('coming soon')">
-            <img class="coming-soon" src="https://storage.googleapis.com/ucg-static-imgs/Cavers_FinalLogoRGB_RebeckaHallumCook.png" class="d-block" alt="...">
-            <img class="coming-soon" src="https://storage.googleapis.com/ucg-static-imgs/RedWingTailor_Logo_Color.png" class="d-block" alt="...">
-            <img class="coming-soon" src="https://storage.googleapis.com/ucg-static-imgs/S.L.NealTailor_FinalLogoRGB_SeanSteed.png" class="d-block" alt="...">
+        <div class="row justify-content-center"  onclick="alert('coming soon')">
+            <img class="coming-soon mx-5" src="https://storage.googleapis.com/ucg-static-imgs/Cavers_FinalLogoRGB_RebeckaHallumCook.png" class="d-block" alt="...">
+            <img class="coming-soon mx-5" src="https://storage.googleapis.com/ucg-static-imgs/RedWingTailor_Logo_Color.png" class="d-block" alt="...">
+            <img class="coming-soon mx-5" src="https://storage.googleapis.com/ucg-static-imgs/S.L.NealTailor_FinalLogoRGB_SeanSteed.png" class="d-block" alt="...">
         </div>
     </div>
     <div class="carousel-item logos py-3 px-2">
-      <div class="row justify-content-around" onclick="alert('coming soon')">
-        <img class="coming-soon" src="https://storage.googleapis.com/ucg-static-imgs/RedWingHotel_Logo-Color.png" class="d-block" alt="...">
-        <img class="coming-soon" src="https://storage.googleapis.com/ucg-static-imgs/StarPrinting_FinalLogoRGB_KevinShank.png" class="d-block" alt="...">
+      <div class="row justify-content-center" onclick="alert('coming soon')">
+        <img class="coming-soon mx-5" src="https://storage.googleapis.com/ucg-static-imgs/RedWingHotel_Logo-Color.png" class="d-block" alt="...">
+        <img class="coming-soon mx-5" src="https://storage.googleapis.com/ucg-static-imgs/StarPrinting_FinalLogoRGB_KevinShank.png" class="d-block" alt="...">
       </div>
     </div>
   </div>
@@ -85,11 +88,11 @@ Urban Coders Guild exists to provide STEM education opportunities and training, 
     <div class="light-theme d-flex flex-wrap justify-content-around pt-2">
 
         
-        <div class="project my-3">
+        <div my-3">
             <header class="project-title">
-                <a href="{{ url_for('baker_drug_store') }}">             
+                <a class="project" href="{{ url_for('baker_drug_store') }}">             
                     <img class="logo" src="https://storage.googleapis.com/ucg-static-imgs/baker.png">
-                    <h2 class="color">Bryant Baker Drug Store</h2>
+                    <h2 class="color">Bryant Baker<br>Drug Store</h2>
                 </a>
             </header>
             <div class="row">
@@ -108,9 +111,9 @@ Urban Coders Guild exists to provide STEM education opportunities and training, 
 
         
 
-        <div class="project my-3">
+        <div class=" my-3">
             <header class="project-title">
-                <a href="{{ url_for('cains_cafe') }}">             
+                <a class="project" href="{{ url_for('cains_cafe') }}">             
                 <img class="logo" src="https://storage.googleapis.com/ucg-static-imgs/cains_cafe.png">
                 <h2 class="color">Cains Cafe</h2>
                 </a>
@@ -125,16 +128,16 @@ Urban Coders Guild exists to provide STEM education opportunities and training, 
         </div>
 
 
-        <div class="project my-3">
+        <div class=" my-3">
             <header class="project-title">
-                <a href="{{ url_for('cozy_barber_shop') }}">             
-                    <img class="logo border" src="https://storage.googleapis.com/ucg-static-imgs/TheCozyBarbershop_FinalLogoRGB_DevonParsons.png">
-                    <h2 class="color">Cozy Barber Shop</h2>
+                <a class="project" href="{{ url_for('dock_eastman') }}">             
+                    <img class="logo border" src="https://storage.googleapis.com/ucg-static-imgs/dock_eastman.png">
+                    <h2 class="color">Dock Eastman<br>& Hugh's Cafe</h2>
                 </a>
             </header>
             <div class="row">
                 <div class="col text-muted">
-                    <span class="text-dark">Created by:<br></span>
+                    <span>Created by:<br></span>
                     Erina Katoh<br>
                     Emilia Nguyen<br>
                     Reyhana Fouda<br>
@@ -147,11 +150,11 @@ Urban Coders Guild exists to provide STEM education opportunities and training, 
 
     </div>
 
-    <div class="dark-theme d-flex flex-wrap justify-content-around pt-2">
+    <div class="dark-theme d-flex flex-wrap justify-content-around">
 
-        <div class="project my-3">
+        <div class=" my-3">
             <header class="project-title">
-                <a href="{{ url_for('dixie_theater') }}">             
+                <a class="project" href="{{ url_for('dixie_theater') }}">             
                     <img class="logo border" src="https://storage.googleapis.com/ucg-static-imgs/DixieTheater_FinalLogoRGB_JenniferDale.png">
                     <h2 class="text-light">Dixie Theater</h2>
                 </a>
@@ -166,16 +169,16 @@ Urban Coders Guild exists to provide STEM education opportunities and training, 
         </div>
 
 
-        <div class="project my-3">
+        <div class=" my-3">
             <header class="project-title">
-                <a href="{{ url_for('dock_eastman') }}">             
-                    <img class="logo border" src="https://storage.googleapis.com/ucg-static-imgs/dock_eastman.png">
-                    <h2 class="text-light">Dock Eastman & Hugh's Cafe</h2>
+                <a class="project" href="{{ url_for('cozy_barber_shop') }}">             
+                    <img class="logo border" src="https://storage.googleapis.com/ucg-static-imgs/TheCozyBarbershop_FinalLogoRGB_DevonParsons.png">
+                    <h2 class="text-light">Cozy Barber Shop</h2>
                 </a>
             </header>
             <div class="row">
                 <div class="col">
-                    <span>Created by:<br></span>
+                    <span class="text-light">Created by:<br></span>
                     Erina Katoh<br>
                     Emilia Nguyen<br>
                     Reyhana Fouda<br>
@@ -185,8 +188,8 @@ Urban Coders Guild exists to provide STEM education opportunities and training, 
         </div>
 
 
-        <div class="project my-3">
-            <header class="project-title">
+        <div class=" my-3">
+            <header class="project" class="project-title">
                 <a href="{{ url_for('red_wing_cafe') }}">             
                     <img class="logo border" src="https://storage.googleapis.com/ucg-static-imgs/RedWingCafe_Logo_Color.png">
                     <h2 class="text-light">Red Wing Cafe</h2>
@@ -208,9 +211,9 @@ Urban Coders Guild exists to provide STEM education opportunities and training, 
     <div class="light-theme d-flex flex-wrap justify-content-around pt-2">
         
 
-        <div class="project my-3">
+        <div class=" my-3">
             <header class="project-title">
-                <a href="{{ url_for('hotel_alexandar') }}">             
+                <a  class="project" href="{{ url_for('hotel_alexandar') }}">             
                     <img class="logo border" src="https://storage.googleapis.com/ucg-static-imgs/hotel_alex.png">
                     <h2 class="color">Hotel Alexander</h2>
                 </a>
@@ -225,11 +228,11 @@ Urban Coders Guild exists to provide STEM education opportunities and training, 
         </div>
 
 
-        <div class="project my-3">
+        <div class=" my-3">
             <header class="project-title">
-                <a href="{{ url_for('nails_shoe_repair') }}">             
+                <a class="project" href="{{ url_for('nails_shoe_repair') }}">             
                     <img class="logo border" src="https://storage.googleapis.com/ucg-static-imgs/nails_shoe_repair.png">
-                    <h2 class="color">Nails Brothers Shoe Repair</h2>
+                    <h2 class="color">Nails Brothers<br>Shoe Repair</h2>
                 </a>
             </header>
             <div class="row">
@@ -241,9 +244,9 @@ Urban Coders Guild exists to provide STEM education opportunities and training, 
             </div>
         </div>
 
-        <div class="project my-3">
+        <div class=" my-3">
             <header class="project-title">
-                <a href="{{ url_for('dreamland_theater') }}">             
+                <a class="project" href="{{ url_for('dreamland_theater') }}">             
                     <img class="logo border" src="https://storage.googleapis.com/ucg-static-imgs/dreamland_theater.png">
                     <h2 class="color">Dreamland Theater</h2>
                 </a>
